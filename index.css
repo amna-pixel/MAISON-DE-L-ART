@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--creame);
+    word-spacing: 2px;
+
+}
+:root{
+    --creame: #F5F1E8;
+    --grey: #A9A9A9;
+    --lightBrown: #191413;
+    --AshBlack: #333333;
+}
+h1{
+    font-family: "Cinzel";
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+a,button{
+    text-decoration: none;
+    color: var(--AshBlack);
+    border: none;
+    background-color: #D9D9D9;
+    font-size: 12px;
+    font-family: "Source Serif 4";
+}
+
+.navbar{
+    position:  sticky;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    justify-self: center;
+    gap: 142px;
+}
+#logo{
+    margin-left: 170px;
+    margin-right: 170px;
+    letter-spacing: 2px;
+}
+
+/* span{
+   text-decoration: none;
+    color: var(--AshBlack);
+    border: none;
+    background-color: #D9D9D9;
+    font-size: 12px;
+    font-family: "Source Serif 4";
+    display: inline-block;
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform 0.2s ease, opacity 0.2s ease; 
+}
+
+#logo:hover span{
+    transform: translateY(-40%);
+    opacity: 1;
+}
+
+#logo:not(:hover)span{
+    transition-delay: var(--out-delay);
+} */
+/* #logo span:nth-child(1){ transition-delay: 0s; }
+#logo span:nth-child(2){ transition-delay: 0.05s; }
+#logo span:nth-child(3){ transition-delay: 0.1s; }
+#logo span:nth-child(4){ transition-delay: 0.15s; }
+#logo span:nth-child(5){ transition-delay: 0.2s; }
+#logo span:nth-child(6){ transition-delay: 0.25s; }
+#logo span:nth-child(7){ transition-delay: 0.3s; }
+#logo span:nth-child(8){ transition-delay: 0.35s; }
+#logo span:nth-child(9){ transition-delay: 0.4s; }
+#logo span:nth-child(10){ transition-delay: 0.45s; }
+#logo span:nth-child(11){ transition-delay: 0.5s; }
+#logo span:nth-child(12){ transition-delay: 0.55s; }
+#logo span:nth-child(13){ transition-delay: 0.6s; }
+#logo span:nth-child(14){ transition-delay: 0.65s; }
+
+
+
+
+#logo:not(:hover) span:nth-child(14){ transition-delay: 0s; }
+#logo:not(:hover) span:nth-child(13){ transition-delay: 0.05s; }
+#logo:not(:hover) span:nth-child(12){ transition-delay: 0.1s; }
+#logo:not(:hover) span:nth-child(11){ transition-delay: 0.15s; }
+#logo:not(:hover) span:nth-child(10){ transition-delay: 0.2s; }
+#logo:not(:hover) span:nth-child(9){ transition-delay: 0.25s; }
+#logo:not(:hover) span:nth-child(8){ transition-delay: 0.3s; }
+#logo:not(:hover) span:nth-child(7){ transition-delay: 0.35s; }
+#logo:not(:hover) span:nth-child(6){ transition-delay: 0.4s; }
+#logo:not(:hover) span:nth-child(5){ transition-delay: 0.45s; }
+#logo:not(:hover) span:nth-child(4){ transition-delay: 0.5s; }
+#logo:not(:hover) span:nth-child(3){ transition-delay: 0.55s; }
+#logo:not(:hover) span:nth-child(2){ transition-delay: 0.6s; }
+#logo:not(:hover) span:nth-child(1){ transition-delay: 0.65s; } */
+
+
+.underline {
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: "";
+    border-bottom: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s ease-out;
+}
+
+.underline:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+
+
+
+.hero{
+    width: 100%;
+    height: 610px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 0;
+}
+.heroImage{
+    height: 550px;
+    transform: translate(280%,11%);
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    margin-top: 165px;
+    padding-left: 18%;
+    
+}
+
+
+#scrollText{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Source Serif 4";
+    position: fixed;
+    right: 0px;
+    justify-self: right;
+    padding-right: 40px;
+
+}
+
+.details{
+    margin-top: 640px;
+}
+.styleLine{
+    height: 140px;
+    width: none;
+    border-left: solid 1px var(--lightBrown);
+    justify-self: center;
+}
+.galleryInfo1,.galleryInfo2{
+    font-family: "Baskervville";
+    font-size: 16px;
+    color: var(--lightBrown);
+    font-weight: 500;
+}
+.galleryInfo1{
+    width: 739px;
+    justify-self: center;
+    padding-top: 65px;
+}
+
+#info2{
+    display: flex;
+    align-items: center;
+    margin-top: 277px;
+    justify-content: space-around;
+}
+.galleryInfo2{
+   width: 696px;
+}
+.gifImage{
+    width: 300px;
+}
+.horizontalDivider{
+    border-bottom: solid 1px var(--AshBlack);
+    width: 100px;
+    margin-right: -90px;
+}
+
+.artShowcase{
+    margin-top: 350px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sliderBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: var(--grey);
+    position: absolute;
+}
+#prevBtn{
+    left: 10px;
+}
+#nextBtn{
+    right: 10px;
+}
+.sliderBtn:hover,.sliderBtn:focus{
+    background-color: black;
+    opacity: 1;
+    color: var(--creame);
+}
+.artSection{
+    width: 100%;
+    max-width: 1250px;
+    padding-block: 16px 32px;
+    margin: 16px 48px;
+    overflow-x: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    flex-flow: row nowrap;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.artSection::-webkit-scrollbar {
+    display: none;
+}
+.art{
+    
+    scroll-snap-align: start;
+    width: 400px;
+    border-radius: 10px;
+    transition: ease-in 0.2s all;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    align-self: end;
+    justify-content: space-between;
+    margin-top: 300px;
+    padding-bottom: 50px;
+}
+.footer-link,#footerBtn{
+    background-color: var(--creame);
+}
+
+footer ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.credits{
+    display: flex;
+    margin-right: 40px;
+}
+.rights{
+    border-right: solid 1px black;
+    padding-right: 10px;
+}
+.rightText{
+    font-family: "Source Serif 4";
+    font-size: 14px;
+    color: rgba(51, 51, 51, 75%);
+}
+.dev{
+    font-family: "Source Serif 4";
+    font-size: 14px;
+    padding-left: 10px;
+    color: var(--AshBlack);
+}
