@@ -1,5 +1,7 @@
 console.log("DOM Loaded");
 
+// Sound functionality
+// This code handles the sound toggle functionality
 const soundBtn = document.querySelector('.soundBtn');
 const footerSoundBtn = document.querySelector('#footerBtn');
 footerSoundBtn.addEventListener("click",soundOn);
@@ -8,6 +10,7 @@ soundBtn.addEventListener("click",soundOn);
 
 const backgroundSound = document.createElement('audio');
 backgroundSound.src = "Assets/relaxing-ambient-music-342190.mp3";
+
 function soundOn(){
     if(soundBtn.innerHTML === "Sound: oFF" && footerSoundBtn.innerHTML === "Sound: oFF"){
         soundBtn.innerHTML = "Sound: oN";
@@ -24,6 +27,7 @@ function soundOn(){
 }
 
 
+// Carousel functionality
 const imageSlider = document.querySelector(".artSection");
 const slide = document.querySelector(".art");
 
@@ -47,18 +51,7 @@ function handleCarouselMove(forward = true) {
 
 
     
-const navlogo = document.querySelector('#logo');
-const text = navlogo.textContent.trim();
-navlogo.textContent = '';
 
-[...text].forEach((char, i) => {
-    const span = document.createElement('span');
-    span.textContent = char;
-    span.style.transitionDelay = `${i * 0.05}s`;
-
-    span.style.setProperty('--out-delay', `${(text.length - i - 1) * 0.01}s`); 
-    navlogo.append(span);
-});
 
 
 

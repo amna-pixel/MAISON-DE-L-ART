@@ -47,59 +47,6 @@ nav ul{
     letter-spacing: 2px;
 }
 
-/* span{
-   text-decoration: none;
-    color: var(--AshBlack);
-    border: none;
-    background-color: #D9D9D9;
-    font-size: 12px;
-    font-family: "Source Serif 4";
-    display: inline-block;
-    transform: translateY(0%);
-    opacity: 1;
-    transition: transform 0.2s ease, opacity 0.2s ease; 
-}
-
-#logo:hover span{
-    transform: translateY(-40%);
-    opacity: 1;
-}
-
-#logo:not(:hover)span{
-    transition-delay: var(--out-delay);
-} */
-/* #logo span:nth-child(1){ transition-delay: 0s; }
-#logo span:nth-child(2){ transition-delay: 0.05s; }
-#logo span:nth-child(3){ transition-delay: 0.1s; }
-#logo span:nth-child(4){ transition-delay: 0.15s; }
-#logo span:nth-child(5){ transition-delay: 0.2s; }
-#logo span:nth-child(6){ transition-delay: 0.25s; }
-#logo span:nth-child(7){ transition-delay: 0.3s; }
-#logo span:nth-child(8){ transition-delay: 0.35s; }
-#logo span:nth-child(9){ transition-delay: 0.4s; }
-#logo span:nth-child(10){ transition-delay: 0.45s; }
-#logo span:nth-child(11){ transition-delay: 0.5s; }
-#logo span:nth-child(12){ transition-delay: 0.55s; }
-#logo span:nth-child(13){ transition-delay: 0.6s; }
-#logo span:nth-child(14){ transition-delay: 0.65s; }
-
-
-
-
-#logo:not(:hover) span:nth-child(14){ transition-delay: 0s; }
-#logo:not(:hover) span:nth-child(13){ transition-delay: 0.05s; }
-#logo:not(:hover) span:nth-child(12){ transition-delay: 0.1s; }
-#logo:not(:hover) span:nth-child(11){ transition-delay: 0.15s; }
-#logo:not(:hover) span:nth-child(10){ transition-delay: 0.2s; }
-#logo:not(:hover) span:nth-child(9){ transition-delay: 0.25s; }
-#logo:not(:hover) span:nth-child(8){ transition-delay: 0.3s; }
-#logo:not(:hover) span:nth-child(7){ transition-delay: 0.35s; }
-#logo:not(:hover) span:nth-child(6){ transition-delay: 0.4s; }
-#logo:not(:hover) span:nth-child(5){ transition-delay: 0.45s; }
-#logo:not(:hover) span:nth-child(4){ transition-delay: 0.5s; }
-#logo:not(:hover) span:nth-child(3){ transition-delay: 0.55s; }
-#logo:not(:hover) span:nth-child(2){ transition-delay: 0.6s; }
-#logo:not(:hover) span:nth-child(1){ transition-delay: 0.65s; } */
 
 
 .underline {
@@ -181,4 +128,9 @@ nav ul{
     font-size: 15px;
     color: var(--lightBrown);
     font-weight: 500;
+}
+
+
+footer{
+    display: none;
 }
