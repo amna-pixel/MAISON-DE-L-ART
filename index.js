@@ -13,7 +13,6 @@ function soundOn(){
         soundBtn.innerHTML = "Sound: oN";
         footerSoundBtn.innerHTML = "Sound: oN";
         backgroundSound.play();
-        backgroundSound.volume = 0.75;
         backgroundSound.loop = true;
         
     }else if(soundBtn.innerHTML === "Sound: oN" &&  footerSoundBtn.innerHTML === "Sound: oN"){
