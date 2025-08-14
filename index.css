@@ -154,6 +154,7 @@ nav ul{
     font-family: "Source Serif 4";
     position: fixed;
     right: 0px;
+    bottom: 10px;
     justify-self: right;
     padding-right: 40px;
     z-index: 1;
