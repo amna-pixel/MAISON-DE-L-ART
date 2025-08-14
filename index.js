@@ -50,7 +50,9 @@ function handleCarouselMove(forward = true) {
 
 
 
-    
+
+
+
 
 
 
