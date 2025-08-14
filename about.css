@@ -34,7 +34,7 @@ a,button{
 
 .navbar{
     position:  sticky;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 nav ul{
     display: flex;
