@@ -143,6 +143,8 @@ footer{
 
 
 @media (max-width: 450px){
+
+
     .underline{
         display: none;
     }
@@ -162,12 +164,12 @@ footer{
         z-index: 1;
     }
     .nav-close-icon {
-        display: none;
-        position: fixed;
-        top: 40px;
-        right: 30px;
+       display: block;
+        position: absolute;
+        top: 38px;
+        right: 29px;
         font-size: 20px;
-        z-index: 9999;
+        z-index: 2000;
         cursor: pointer;
     }
 
@@ -180,9 +182,14 @@ footer{
     .underline{
         margin-bottom: 20px;
     }
+    .overlay.show .underline {
+      display: block;
+    }
     a,button{
         background-color: inherit;
     }
+
+    
 
     .menu-Header{
         color: #333333;
@@ -229,6 +236,7 @@ footer{
     .heroImage{
         transform: none;
         margin-top: 185px;
+        width: 310px;
     }
     .contactSection{
         justify-self: flex-start;
