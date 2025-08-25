@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
@@ -25,7 +26,7 @@
     <title>MAISON DE L'ART</title>
 </head>
 <body>
-        <section class="hero">
+    <section class="hero">
         <img src="Assets/17547564680339f24wva6.png" alt="" loading="lazy" class="heroImage">
         <h1 class="logo">ART WORKS</h1>
         <p id="scrollText">Keep Scrolling</p>
@@ -33,6 +34,7 @@
      
      <header>   
          <nav class="navbar">
+            <i class="fa-solid fa-bars nav-icon" style="color: #333333;"></i>
             <ul>
                 <div class="underline">
                     <a href="artwork.html" class="nav-link" id="link">Artworks</a>
@@ -50,6 +52,9 @@
             </ul>
         </nav>
     </header>
+    <div class="overlay"></div>
+    <i class="fa-solid fa-xmark nav-close-icon" style="color: #333333;"></i>
+
 
     <p class="info">“A sanctuary where timeless art and quiet elegance meet.”</p>
     <section class="artwork-Section">
@@ -133,5 +138,6 @@
     </footer>
 
     <script src="index.js"></script>
+    <script src="navmenu.js"></script>
 </body>
 </html>
