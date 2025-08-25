@@ -50,7 +50,7 @@ function handleCarouselMove(forward = true) {
 
 
 
-
+const mobileMediaQuery = window.matchMedia("(max-width: 450px)");
 
 
 
