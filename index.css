@@ -644,3 +644,628 @@ footer ul{
     }
     
 }
+
+
+
+
+@media (min-width: 501px) and (max-width: 599px) {
+    .navbar{
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .underline{
+        display: none;
+    }
+    
+     #logo{
+        margin: 0;
+        margin-top: 0px;
+        position: relative;
+        float: left;
+     }
+    .navLogo{
+        position: absolute;
+        left: 0;
+        margin: 0px;
+        float: left;
+        text-align: left;
+        padding-left: 40px;
+     }
+    .nav-icon{
+        display: block;
+        justify-self: flex-end;
+        padding-right: 50px;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .nav-close-icon {
+        display: none;
+        position: absolute;
+        top: 38px;
+        right: 29px;
+        font-size: 20px;
+        z-index: 2000;
+        cursor: pointer;
+    }
+
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: fit-content;
+    }
+    .underline{
+        margin-bottom: 20px;
+    }
+    .overlay.show .underline {
+      display: block;
+    }
+    a,button{
+        background-color: inherit;
+    }
+
+
+
+    .menu-Header{
+        color: #333333;
+        font-size: 24px;
+        font-family: "Cinzel";
+        margin-bottom: 40px;
+        width: fit-content;
+        border-bottom: solid 1px #333333;
+    }
+    .underline{
+        width: fit-content;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background: rgba(250, 250, 250, 0.9);
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        z-index: 900;
+        display: flex;
+        flex-direction: column; 
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .overlay.show {
+        opacity: 1;
+        visibility: visible;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 640px;
+    }
+    .logo{
+        transform: none;
+        font-size: 34px;
+        text-align: center;
+        padding: 0px;
+        padding-top: 30px;
+        letter-spacing: 4px;
+    }
+    .heroImage{
+        transform: none;
+        margin-top: 80px;
+        width: 210px;
+        height: auto;
+    }
+
+    .galleryInfo1{
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #info2{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .gifImage{
+        width: 200px;
+        align-self: flex-end;
+        margin-right: 40px;
+    }
+    .horizontalDivider{
+        align-self: flex-start;
+        margin-top: -80px;
+        margin-left: 40px;
+        margin-bottom: 150px;
+    }
+    .galleryInfo2{
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .artSection{
+        justify-content: left;
+        align-items: center;
+        width: 400px;
+    }
+    .art{
+        width: 400px;
+    }
+    .sliderBtn{
+        width: 30px;
+        height: 60px;
+    }
+    footer{
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer ul .underline{
+        display: flex;
+        width: fit-content;
+    }
+    footer ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 0;
+        column-gap: 40px;
+        align-content: flex-start;
+
+    }
+
+    .footer-wrapper{
+        width: 100%;
+        margin: 0;
+        margin-top: 329px;
+    }
+    #div2{
+        width: 100px;
+    }
+
+    .credits{
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+}
+
+
+
+
+@media (min-width: 601px) and (max-width:800px) {
+    .navbar{
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .underline{
+        display: none;
+    }
+    
+     #logo{
+        margin: 0;
+        margin-top: 0px;
+        position: relative;
+        float: left;
+     }
+    .navLogo{
+        position: absolute;
+        left: 0;
+        margin: 0px;
+        float: left;
+        text-align: left;
+        padding-left: 40px;
+     }
+    .nav-icon{
+        display: block;
+        justify-self: flex-end;
+        padding-right: 50px;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .nav-close-icon {
+        display: none;
+        position: absolute;
+        top: 38px;
+        right: 29px;
+        font-size: 20px;
+        z-index: 2000;
+        cursor: pointer;
+    }
+
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: fit-content;
+    }
+    .underline{
+        margin-bottom: 20px;
+    }
+    .overlay.show .underline {
+      display: block;
+    }
+    a,button{
+        background-color: inherit;
+    }
+
+
+
+    .menu-Header{
+        color: #333333;
+        font-size: 24px;
+        font-family: "Cinzel";
+        margin-bottom: 40px;
+        width: fit-content;
+        border-bottom: solid 1px #333333;
+    }
+    .underline{
+        width: fit-content;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background: rgba(250, 250, 250, 0.9);
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        z-index: 900;
+        display: flex;
+        flex-direction: column; 
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .overlay.show {
+        opacity: 1;
+        visibility: visible;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 640px;
+    }
+    .logo{
+        transform: none;
+        font-size: 34px;
+        text-align: center;
+        padding: 0px;
+        padding-top: 30px;
+        letter-spacing: 4px;
+    }
+    .heroImage{
+        transform: none;
+        margin-top: 80px;
+        width: 210px;
+        height: auto;
+    }
+
+    .galleryInfo1{
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #info2{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .gifImage{
+        width: 200px;
+        align-self: flex-end;
+        margin-right: 40px;
+    }
+    .horizontalDivider{
+        align-self: flex-start;
+        margin-top: -80px;
+        margin-left: 40px;
+        margin-bottom: 150px;
+    }
+    .galleryInfo2{
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .artSection{
+        justify-content: left;
+        align-items: center;
+        width: 400px;
+    }
+    .art{
+        width: 400px;
+    }
+    .sliderBtn{
+        width: 30px;
+        height: 60px;
+    }
+    footer{
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer ul .underline{
+        display: flex;
+        width: fit-content;
+    }
+    footer ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 0;
+        column-gap: 40px;
+        align-content: flex-start;
+
+    }
+
+    .footer-wrapper{
+        width: 100%;
+        margin: 0;
+        margin-top: 329px;
+    }
+    #div2{
+        width: 100px;
+    }
+
+    .credits{
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+}
+
+
+
+
+
+@media(min-width: 801px) and (max-width:1024px) {
+    
+    .navLogo{
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    #logo{
+        margin: 0;
+    }
+    nav ul{
+        gap: 90px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+    .hero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 640px;
+    }
+    .logo{
+        transform: none;
+        font-size: 34px;
+        text-align: center;
+        padding: 0px;
+        padding-top: 30px;
+        letter-spacing: 4px;
+    }
+    .heroImage{
+        transform: none;
+        margin-top: 80px;
+        width: 210px;
+        height: auto;
+    }
+
+    .galleryInfo1{
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #info2{
+        display: flex;
+    }
+
+    .gifImage{
+        width: 200px;
+        align-self: flex-end;
+        margin-right: 40px;
+    }
+    .horizontalDivider{
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .galleryInfo2{
+        width: auto;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+
+    .artSection{
+        justify-content: left;
+        align-items: center;
+        width: 680px;
+    }
+    .art{
+        width: 320px;
+    }
+    .sliderBtn{
+        width: 30px;
+        height: 60px;
+    }
+    footer{
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer ul .underline{
+        display: flex;
+        width: fit-content;
+    }
+    footer ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 0;
+        column-gap: 40px;
+        align-content: flex-start;
+
+    }
+
+    .footer-wrapper{
+        width: 100%;
+        margin: 0;
+        margin-top: 329px;
+    }
+    #div2{
+        width: 100px;
+    }
+
+    .credits{
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+}
+
+
+@media (min-width: 1025px) and (max-width:1200px) {
+    
+    .navLogo{
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    #logo{
+        margin: 0;
+    }
+    nav ul{
+        gap: 140px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+    .hero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 640px;
+    }
+    .logo{
+        transform: none;
+        font-size: 34px;
+        text-align: center;
+        padding: 0px;
+        padding-top: 30px;
+        letter-spacing: 4px;
+    }
+    .heroImage{
+        transform: none;
+        margin-top: 80px;
+        width: 210px;
+        height: auto;
+    }
+
+    .galleryInfo1{
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #info2{
+        display: flex;
+    }
+
+    .gifImage{
+        width: 250px;
+        align-self: flex-end;
+        margin-right: 40px;
+    }
+    .horizontalDivider{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .galleryInfo2{
+        width: 540px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+    .artSection{
+        justify-content: left;
+        align-items: center;
+        width: 680px;
+    }
+    .art{
+        width: 320px;
+    }
+    .sliderBtn{
+        width: 30px;
+        height: 60px;
+    }
+    footer{
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer ul .underline{
+        display: flex;
+        width: fit-content;
+    }
+    footer ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 0;
+        column-gap: 40px;
+        align-content: flex-start;
+
+    }
+
+    .footer-wrapper{
+        width: 100%;
+        margin: 0;
+        margin-top: 329px;
+    }
+    #div2{
+        width: 100px;
+    }
+
+    .credits{
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+}
