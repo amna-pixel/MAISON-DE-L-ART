@@ -28,11 +28,14 @@ a,button{
     color: var(--AshBlack);
     border: none;
     background-color: #D9D9D9;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Source Serif 4";
 }
+.nav-icon,.nav-close-icon{
+    display: none;
+}
 
-.navbar{
+/* .navbar{
     position:  sticky;
     padding-top: 20px;
 }
@@ -44,6 +47,22 @@ nav ul{
 #logo{
     margin-left: 170px;
     margin-right: 170px;
+    letter-spacing: 2px;
+} */
+
+.navbar{
+    position:  sticky;
+    padding-top: 20px;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-self: center;
+    gap: 200px;
+}
+#logo{
     letter-spacing: 2px;
 }
 
@@ -79,19 +98,19 @@ nav ul{
     background-color: #D9D9D9;
     position: absolute;
     top: 0;
+    display: flex;
+    justify-content: center;
 }
 .heroImage{
     width: 480px;
-    justify-self: right;
-    transform: translate(100%,10%);
-
+    height: auto;
+    margin-top: 120px;
 }
 
 .logo{
     position: absolute;
     top: 0;
     margin-top: 115px;
-    padding-left: 40%;
 }
 
 #scrollText{
@@ -460,3 +479,145 @@ footer ul{
     }
     
 }
+
+
+@media (max-width: 320px) {
+
+
+    .underline{
+        display: none;
+    }
+    
+    #logo{
+        margin: 0;
+        position: relative;
+        float: left;
+        margin-left: -180px;
+        margin-top: -20px;
+        padding-left: 40px;
+    }
+    .nav-icon{
+        display: block;
+        justify-self: flex-end;
+        padding-right: 50px;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .nav-close-icon {
+        display: none;
+        position: absolute;
+        top: 38px;
+        right: 29px;
+        font-size: 20px;
+        z-index: 2000;
+        cursor: pointer;
+    }
+
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: fit-content;
+    }
+    .underline{
+        margin-bottom: 20px;
+    }
+    .overlay.show .underline {
+      display: block;
+    }
+    a,button{
+        background-color: inherit;
+    }
+
+
+
+    .menu-Header{
+        color: #333333;
+        font-size: 24px;
+        font-family: "Cinzel";
+        margin-bottom: 40px;
+        width: fit-content;
+        border-bottom: solid 1px #333333;
+    }
+    .underline{
+        width: fit-content;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background: rgba(250, 250, 250, 0.9);
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        z-index: 900;
+        display: flex;
+        flex-direction: column; 
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .overlay.show {
+        opacity: 1;
+        visibility: visible;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 640px;
+    }
+    .logo{
+        transform: none;
+        font-size: 38px;
+        padding: 0px;
+        padding-top: 30px;
+    }
+    .heroImage{
+        transform: none;
+        margin-top: 125px;
+        width: 300px;
+    }
+
+    .about{
+        width: 250px;
+    }
+
+
+    footer{
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer ul .underline{
+        display: flex;
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+    footer ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        column-gap: 40px;
+        align-content: flex-start;
+
+    }
+
+    .footer-wrapper{
+        width: 100%;
+        margin: 0;
+        margin-top: 329px;
+    }
+    #div2{
+        width: 100px;
+    }
+
+    .credits{
+        display: flex;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+}
+

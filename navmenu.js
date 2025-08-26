@@ -1,4 +1,4 @@
-console.log("DOM Content Loaded!");
+console.log("DOM Content loaded!");
 
 const navMenuIcon = document.querySelector(".nav-icon");
 const navCloseIcon = document.querySelector(".nav-close-icon");
@@ -52,7 +52,7 @@ function closeMenu(){
     navMenuIcon.style.display = "block";
     navCloseIcon.style.display = "none";
     const navLogo = document.querySelector("#logo");
-    navLogo.style.marginTop = "-20px";
+    navLogo.style.marginTop = "0px";
     menuBar.classList.remove("show");
 
 }
